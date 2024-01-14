@@ -1,0 +1,17 @@
+.arrow-button {
+  padding: 17px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #F05A00;
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  bottom: 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.arrow-button:hover {
+  background-color: #000;
+}
