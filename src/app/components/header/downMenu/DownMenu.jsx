@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react";
 import "./downMenu.css";
 import CatalogButtons from "../../ui/catalog-button/CatalogButtons";
