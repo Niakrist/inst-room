@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .buttonCart {
   width: 96px;
   height: 96px;
@@ -14,21 +13,4 @@
 
 .buttonCart:hover {
   background-color: #F05A00;
-=======
-.buttonCart {
-  width: 96px;
-  height: 96px;
-  background-color: #3B3B3B;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.35s ease-in-out;
-}
-
-.buttonCart:hover {
-  background-color: #F05A00;
->>>>>>> eddcf0e6eb28035fedb717fdb42571ef5e079ac0
 }
