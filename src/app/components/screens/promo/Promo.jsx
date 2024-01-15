@@ -1,6 +1,7 @@
 import React from "react";
 import ArrowButton from "../../ui/arrow-button/ArrowButton";
 import OrangeButton from "../../ui/orange-buttons/OrangeButton";
+import Cart from "../cart/Cart";
 
 import promo1 from "./../../../img/promo-1.png"
 import promo2 from "./../../../img/promo-2.png"
@@ -40,6 +41,7 @@ const Promo = () => {
           </div>
         </div>
       </div>
+      <Cart />
     </section>
   );
 };
