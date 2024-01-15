@@ -8,87 +8,48 @@
   gap: 20px;
 }
 
-.promo__stock-1 {
-  width: 640px;
-  height: 488px;
-  background-image: url('./../../../img/promo-1.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
+.promo {
+  padding: 20px 0;
+  background-color: #212526;
 }
 
-.promo__stock-1::after {
+.promo__column {
+  display: flex;
+  gap: 20px;
+}
+
+
+.promo__stock {
+  position: relative;
+  border-radius: 5px;
+}
+
+.promo__stock-row {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.promo__stock::after {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
   bottom: 0;
-  border-radius: 5px;
+  right: 0;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
 }
 
-.promo__stock-2 {
-  width: 311px;
-  height: 488px;
-  background-image: url('./../../../img/promo-2.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
-}
-
-.promo__stock-3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 20px;
-}
-
-.promo__stock-3-up {
-  width: 310px;
-  height: 234px;
-  background-image: url('./../../../img/promo-3.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
-}
-
-/* .promo__stock-3-down {
-  width: 310px;
-  height: 234px;
-  background-image: url('./../../../img/promo-4.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: relative; */
-/* } */
-
-.promo__stock-1-title {
-  position: relative;
-  z-index: 2;
+.promo__stock-title-big {
+  color: #FFF;
+  position: absolute;
   top: 32px;
   left: 32px;
-  right: 29px;
-
-  color: #FFF;
   font-family: Prosto One;
   font-size: 40px;
   font-weight: 400;
   line-height: 1.2;
-}
-
-.promo__stock-3-down {
-  position: relative;
-  border-radius: 5px;
-}
-
-.promo__stock-3-down::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+  z-index: 2;
 }
 
 .promo__stock-title {
@@ -103,5 +64,13 @@
   font-weight: 400;
   line-height: 1.2;
 
+  z-index: 2;
+}
+
+.promo__stock-big-btn {
+  position: absolute;
   z-index: 5;
+
+  top: 267px;
+  left: 24px;
 }

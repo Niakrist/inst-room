@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import "./downMenu.css";
 import CatalogButtons from "../../ui/catalog-button/CatalogButtons";
@@ -35,4 +36,5 @@ const DownMenu = () => {
     </div>
   );
 };
+
 export default DownMenu;  

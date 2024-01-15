@@ -42,5 +42,4 @@ const UpMenu = () => {
     </div>
   )
 }
-
 export default UpMenu;
