@@ -1,9 +1,10 @@
 .cart {
-  padding: 15px;
+  padding: 15px 10px;
   background-color: #fff;
   border-radius: 5px;
-  width: 310px;
   height: 340px;
+  position: relative;
+  flex: 0 1 310px;
 }
 
 .cart__header {
@@ -26,18 +27,20 @@
   display: flex;
   align-items: center;
   column-gap: 8px;
+  margin-left: auto;
 }
 
 .cart__img {
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
+  width: 212px;
+  height: 184px;
+  margin: 0 auto;
 }
 
 .cart__img-slider {
   display: flex;
   justify-content: space-between;
   margin: 12px 0 14px;
+  column-gap: 4px;
 }
 
 .slide {
@@ -64,6 +67,7 @@
 }
 
 .sale-info {
+  max-width: 220px;
   display: flex;
   align-items: center;
 }

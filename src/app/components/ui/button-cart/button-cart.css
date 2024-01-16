@@ -1,0 +1,15 @@
+.button-cart {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 60px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #F05A00;
+  border-radius: 5px 0 5px 0;
+  cursor: pointer;
+}

@@ -4,41 +4,45 @@ import "./cart.css";
 import product1 from "./../../../img/product-001.png"
 import barChartCart from "./../../../img/bar-chart-cart.svg"
 import heartCart from "./../../../img/heart-cart.svg"
+import ButtonCart from "../../ui/button-cart/ButtonCart";
 
 
-const Cart = () => {
+const Cart = ({...cart}) => {
+
+  console.log('cart_', cart._id)
+
   return (
-    <div className="cart">
+    <li className="cart">
 
       <div className="cart__header">
-        <span className="cart__header-promo">Новинка</span>
+        {cart.promo && <span className="cart__header-promo">{cart.promo}</span>}
         <span className="cart__header-icon">
           <img src={barChartCart} alt="" />
           <img src={heartCart} alt="" />
         </span>
       </div>
       <div className="cart__img">
-        <img src={product1} alt="" />
+        <img src={cart.img} alt="" />
+        </div>
         <div className="cart__img-slider">
           <div className="slide"></div>
           <div className="slide active"></div>
           <div className="slide"></div>
           <div className="slide"></div>
-        </div>
       </div>
       <div className="cart__info">
-        <a href="#!" className="cart__info-title">Эмаль Condor ПФ-115 жёлтая 1,8 кг</a>
+        <a href="#!" className="cart__info-title">{cart.title}</a>
 
         <div className="sale-info">
-          <span className="sale-info__price">500 р</span>
-          <span className="sale-info__promo">750р</span>
-          <span className="sale-info__is-have">в наличие</span>
+          <span className="sale-info__price">{cart.discont}</span>
+          <span className="sale-info__promo">{cart.price}</span>
+          <span className="sale-info__is-have">{cart.isHave ? "в наличие" : "под заказ"}</span>
         </div>
-
+        <ButtonCart />
       </div>
 
 
-    </div>
+    </li>
   );
 };
 export default Cart;

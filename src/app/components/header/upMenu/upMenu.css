@@ -50,7 +50,7 @@
   align-items: center;
 }
 
-.cart__info {
+.cart__info-w {
   margin-left: 16px;
   color: #FFF;
   font-size: 16px;
@@ -115,7 +115,7 @@
   align-items: center;
 }
 
-.cart__info {
+.cart__info-w {
   margin-left: 16px;
   color: #FFF;
   font-size: 16px;
