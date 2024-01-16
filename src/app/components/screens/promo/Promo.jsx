@@ -41,7 +41,6 @@ const Promo = () => {
           </div>
         </div>
       </div>
-      <Cart />
     </section>
   );
 };

@@ -32,7 +32,7 @@ const UpMenu = () => {
             <ButtonHeaderCart img={barChart} alt={"Сравнить"} />
             <ButtonHeaderCart img={account} alt={"Аккаунт"} />
             <ButtonHeaderCart img={basket} alt={"Корзина"} />
-            <div className="cart__info">
+            <div className="cart__info-w">
               <div className="cart__info-desc">Товаров на сумму</div>
               <div className="cart__info-sum">2000 Руб</div>
             </div>
