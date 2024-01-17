@@ -2,6 +2,7 @@ import DownMenu from "./components/header/downMenu/DownMenu";
 import UpMenu from "./components/header/upMenu/UpMenu";
 import CartsList from "./components/screens/cartsList/CartsList";
 import Promo from "./components/screens/promo/Promo";
+import Sliders from "./components/screens/slider/Sliders";
 import "./styles/default.css";
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
         <Promo />
         <section className="carts-list__section">
           <CartsList />
+        </section>
+        <section className="sliders-section">
+          <Sliders />
         </section>
       </main>
     </>
