@@ -1,5 +1,6 @@
 import DownMenu from "./components/header/downMenu/DownMenu";
 import UpMenu from "./components/header/upMenu/UpMenu";
+import About from "./components/screens/about/About";
 import CartsList from "./components/screens/cartsList/CartsList";
 import Promo from "./components/screens/promo/Promo";
 import Sliders from "./components/screens/slider/Sliders";
@@ -19,6 +20,9 @@ function App() {
         </section>
         <section className="sliders-section">
           <Sliders />
+        </section>
+        <section className="section-about">
+          <About />
         </section>
       </main>
     </>
