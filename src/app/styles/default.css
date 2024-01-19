@@ -49,3 +49,19 @@ p {
   background-color: #F2F5F7;
   padding: 80px 0;
 }
+
+.sliders-section {
+  background-color: #212526;
+  position: relative;
+}
+
+.container__sliders {
+    max-width: 1490px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section-about {
+  padding: 80px 0;
+  background-color: #F2F5F7;
+}

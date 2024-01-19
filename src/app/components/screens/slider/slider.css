@@ -1,0 +1,33 @@
+.sliders {
+  padding: 54px 0;
+}
+
+.sliders__wrapper {
+  display: flex;
+}
+
+.sliders__title {
+  color: #FFF;
+  font-family: Prosto One;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.06;
+  margin-right: 28px;
+
+  margin-bottom: 28px;
+}
+
+
+.sliders__container {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.slide__img {
+  max-width: 200px;
+  max-height: 77px;
+  object-fit: contain;
+  object-position: center;
+  overflow: hidden;
+}
